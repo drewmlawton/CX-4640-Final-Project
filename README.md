@@ -13,18 +13,25 @@ A **sparse linear system** is a linear system of the form Ax = b where A is a sp
 Given an organized structure of nonzero elements in a sparse matrix, there may additionally be specialized algorithms to solve a sparse linear system more optimally (i.e. with a faster runtime).<sup><a href="#ref8">[8]</a></sup>  
 
 ## Contents
-<ul>
-<li>[History](#history)</li>
-<li>[Drawbacks of Dense Linear Systems and Advantages of Sparse Systems](#drawbacks-of-dense-linear-systems-and-advantages-of-sparse-systems)</li>
-<li>[Triangular Linear Systems](#triangular-linear-systems)</li>
-<li>[Banded Linear Systems](#banded-linear-systems)</li>
-<li>[Tridiagonal Linear Systems](#tridiagonal-linear-systems)</li>
-<li>[Pentadiagonal Linear Systems](#pentadiagonal-linear-systems)</li>
-<li>[Hessenberg Linear Systems](#hessenberg-linear-systems)</li>
-<li>[Direct vs. Iterative Methods](#direct-vs.-iterative-methods)</li>
-<li>[Conjugate Gradient Method](#conjugate-gradient-method)</li>
-<li>[References](#references)</li>
-</ul>
+History](#history)
+<br />
+[Drawbacks of Dense Linear Systems and Advantages of Sparse Systems](#drawbacks-of-dense-linear-systems-and-advantages-of-sparse-systems)
+<br />
+[Triangular Linear Systems](#triangular-linear-systems)
+<br />
+[Banded Linear Systems](#banded-linear-systems)
+<br />
+[Tridiagonal Linear Systems](#tridiagonal-linear-systems)
+<br />
+[Pentadiagonal Linear Systems](#pentadiagonal-linear-systems)
+<br />
+[Hessenberg Linear Systems](#hessenberg-linear-systems)
+<br />
+[Direct vs. Iterative Methods](#direct-vs.-iterative-methods)
+<br />
+[Conjugate Gradient Method](#conjugate-gradient-method)
+<br />
+[References](#references)
 
 ## History
 Interest in sparse matrices developed in the mid-twentieth century during the adoption of early computers to solve linear systems, first when dealing with electrical grids and later in engineering, finance, and scheduling.<sup><a href="#ref8">[8]</a></sup> In practice, the systems that resulted from these scenarios were filled with patterns of zeroes, leading researchers to realize they could significantly increase the efficiency of computation by taking advantage of these patterns.<sup><a href="#ref8">[8]</a></sup> 

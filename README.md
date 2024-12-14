@@ -13,7 +13,7 @@ A **sparse linear system** is a linear system of the form Ax = b where A is a sp
 Given an organized structure of nonzero elements in a sparse matrix, there may additionally be specialized algorithms to solve a sparse linear system more optimally (i.e. with a faster runtime).<sup><a href="#ref8">[8]</a></sup>  
 
 ## Contents
-History](#history)
+[History](#history)
 <br />
 [Drawbacks of Dense Linear Systems and Advantages of Sparse Systems](#drawbacks-of-dense-linear-systems-and-advantages-of-sparse-systems)
 <br />

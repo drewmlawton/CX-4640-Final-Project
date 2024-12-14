@@ -1,7 +1,9 @@
 ---
 Name: Andrew Lawton
 <br />
+<br />
 Topic: 7
+<br />
 <br />
 Title: Solving Sparse Linear Systems
 ----

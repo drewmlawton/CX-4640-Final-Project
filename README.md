@@ -54,7 +54,7 @@ a & b & c \\
 \end{bmatrix}
 $$
 
-Upper Triangular Matrix
+<p align="center">Upper Triangular Matrix</p>
 
 <br />
 

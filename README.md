@@ -66,7 +66,7 @@ d & e & f
 \end{bmatrix}
 $$
 
-Lower Triangular Matrix
+<p align="center">Lower Triangular Matrix</p>
 
 <br />
   
@@ -133,7 +133,7 @@ c & d & e & 0 & 0 \\
 \end{bmatrix}
 $$
 
-Tridiagonal Matrix
+<p align="center">Tridiagonal Matrix</p>
 
 <br />
 
@@ -179,7 +179,7 @@ A_8 & A_9 & A_{10} & A_{11} & A_{12} & 0 & 0 \\
 \end{bmatrix}
 $$
 
-Pentadiagonal Matrix
+<p align="center">Pentadiagonal Matrix</p>
 
 <br />
 
@@ -251,7 +251,7 @@ f & g & h & i & j \\
 \end{bmatrix}
 $$
 
-Upper Hessenberg Matrix
+<p align="center">Upper Hessenberg Matrix</p>
 
 <br />
 
@@ -265,7 +265,7 @@ o & p & q & r & s
 \end{bmatrix}
 $$
 
-Lower Hessenberg Matrix
+<p align="center">Lower Hessenberg Matrix</p>
 
 <br />
 

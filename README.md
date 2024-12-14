@@ -9,9 +9,9 @@ Topic: 7
 
 There are two types of matrices—and corresponding types of linear systems—based on the frequency of zeroes in a matrix: **sparse** and **dense**.  
   
-A **sparse matrix** is an _m_ x _n_ matrix containing a large number of zeroes which stores fewer than _m_ x _n_ entries.<sup><a href="#ref1">[1]</a></sup> More strictly defined, a sparse matrix must have _O_(min(_m_, _n_)) nonzero entries.<sup><a href="#ref1">[1]</a></sup>
+A **sparse matrix** is an $m \times n$ matrix containing a large number of zeroes which stores fewer than $m \times n$ entries.<sup><a href="#ref1">[1]</a></sup> More strictly defined, a sparse matrix must have _O_(min(_m_, _n_)) nonzero entries.<sup><a href="#ref1">[1]</a></sup>
 
-A **dense matrix**, on the other hand, is an _m_x_n_ matrix that stores all _m_x_n_ elements.<sup><a href="#ref1">[1]</a></sup>  In practice, when properly and optimally implemented, dense matrices do not contain a large number of zeroes, since the matrix could otherwise be represented as a sparse matrix. While dense matrices can have entries equal to zero, they have _O_(_n<sup>2</sup>_) nonzero entries.<sup><a href="#ref8">[8]</a></sup>
+A **dense matrix**, on the other hand, is an $m \times n$ matrix that stores all $m \times n$ elements.<sup><a href="#ref1">[1]</a></sup>  In practice, when properly and optimally implemented, dense matrices do not contain a large number of zeroes, since the matrix could otherwise be represented as a sparse matrix. While dense matrices can have entries equal to zero, they have _O_(_n<sup>2</sup>_) nonzero entries.<sup><a href="#ref8">[8]</a></sup>
 
 Sparse matrices can be stored more efficiently than dense matrices by taking advantage of repeated patterns of zeroes to reduce the number of entries that need to be stored.<sup><a href="#ref1">[1]</a></sup>  
   

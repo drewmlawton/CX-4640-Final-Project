@@ -17,7 +17,7 @@ Sparse matrices can be stored more efficiently than dense matrices by taking adv
   
 A **sparse linear system** is a linear system of the form Ax = b where A is a sparse matrix, while a **dense linear system** has a dense matrix as the A term.  
   
-Given an organized structure of nonzero elements in a sparse matrix, there may additionally be specialized algorithms to solve a sparse linear system more optimally (i.e. with a faster runtime).<sup><a href="#ref8">[8]</a></sup>  
+Given an organized structure of nonzero elements in a sparse matrix, there may additionally be specialized algorithms to solve a sparse linear system more optimally (i.e. with a faster runtime than _O_(_n<sup>3</sup>_)).<sup><a href="#ref8">[8]</a></sup>  
 
 ## Contents
 [History](#history)
@@ -45,7 +45,7 @@ Interest in sparse matrices developed in the mid-twentieth century during the ad
 
 ## Drawbacks of Dense Linear Systems and Advantages of Sparse Systems
 
-Dense linear systems are solved using algorithms including, but not limited to, LU decomposition, Cholesky decomposition, singular value decomposition (SVD), and QR iteration.<sup><a href="#ref7">[7]</a></sup> While implementation of these algorithms is not important for this article, it is important to understand the implication of their time complexities. With _O_(_n<sup>3</sup>_) runtimes,<sup><a href="#ref7">[7]</a></sup> these algorithms can be incredibly computationally expensive. For relatively small matrices, the computational benefits of sparse matrices are negligible, but for large matrices with dimensions in the thousands or millions, any improvement that can be made due to a pattern of zeroes in a sparse matrix can improve the runtime to solve a system by orders of magnitude.<sup><a href="#ref8">[8]</a></sup>
+Dense linear systems are solved using algorithms including, but not limited to, LU decomposition, Cholesky decomposition, singular value decomposition (SVD), and QR iteration.<sup><a href="#ref7">[7]</a></sup> While implementation of these algorithms is not important for this article, it is important to understand the implication of their time complexities. With _O_(_n<sup>3</sup>_) runtimes,<sup><a href="#ref7">[7]</a></sup> these algorithms can be incredibly computationally expensive, so, while they work on both dense and sparse matrices, they are often poorly suited for sparse matrices. For relatively small matrices, the computational benefits of sparse matrices are negligible, but for large matrices with dimensions in the thousands or millions, any improvement that can be made due to a pattern of zeroes in a sparse matrix can improve the runtime to solve a system by orders of magnitude.<sup><a href="#ref8">[8]</a></sup>
 
 ## Triangular Linear Systems
 

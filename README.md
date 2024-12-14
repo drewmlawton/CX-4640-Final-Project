@@ -58,7 +58,13 @@ Upper Triangular Matrix
 
 <br />
 
-$\begin{bmatrix}a & 0 & 0\\b & c & 0\\d & e & f \end{bmatrix}$
+$$
+\begin{bmatrix}
+a & 0 & 0 \\
+b & c & 0 \\
+d & e & f
+\end{bmatrix}
+$$
 
 Lower Triangular Matrix
 
@@ -112,7 +118,20 @@ A **tridiagonal matrix** is an _n_ x _n_ banded matrix with a bandwidth of one (
 
 <br />
 
-$\begin{bmatrix}a & b & 0 & 0 & 0\\c & d & e & 0 & 0\\0 & f & g & h & 0\\0 & 0 & i & j & k\\0 & 0 & 0 & l & m\end{bmatrix}$
+
+To correctly render the matrix in GitHub Markdown, use the following format with double dollar signs for block math:
+
+<br />
+
+$$
+\begin{bmatrix}
+a & b & 0 & 0 & 0 \\
+c & d & e & 0 & 0 \\
+0 & f & g & h & 0 \\
+0 & 0 & i & j & k \\
+0 & 0 & 0 & l & m
+\end{bmatrix}
+$$
 
 Tridiagonal Matrix
 
@@ -148,7 +167,17 @@ Pentadiagonal matrices are banded matrices with a bandwidth of two.<sup><a href=
 
 <br />
 
-$\begin{bmatrix}x_1 & x_2 & x_3 & 0 & 0 & 0 & 0\\x_4 & x_5 & x_6 & x_7 & 0 & 0 & 0\\x_8 & x_9 & x_{10} & x_{11} & x_{12} & 0 & 0\\0 & x_{13} & x_{14} & x_{15} & x_{16} & x_{17} & 0\\0 & 0 & x_{18} & x_{19} & x_{20} & x_{21} & x_{22}\\0 & 0 & 0 & x_{23} & x_{24} & x_{25} & x_{26}\\0 & 0 & 0 & 0 & x_{27} & x_{28} & x_{29}\end{bmatrix}$
+$$
+\begin{bmatrix}
+A_1 & A_2 & A_3 & 0 & 0 & 0 & 0 \\
+A_4 & A_5 & A_6 & A_7 & 0 & 0 & 0 \\
+A_8 & A_9 & A_{10} & A_{11} & A_{12} & 0 & 0 \\
+0 & A_{13} & A_{14} & A_{15} & A_{16} & A_{17} & 0 \\
+0 & 0 & A_{18} & A_{19} & A_{20} & A_{21} & A_{22} \\
+0 & 0 & 0 & A_{23} & A_{24} & A_{25} & A_{26} \\
+0 & 0 & 0 & 0 & A_{27} & A_{28} & A_{29}
+\end{bmatrix}
+$$
 
 Pentadiagonal Matrix
 
@@ -212,13 +241,29 @@ def solve_pentadiagonal_system(A, b):
 
 <br />
 
-$\begin{bmatrix}a & b & c & d & e\\f & g & h & i & j\\0 & k & l & m & n\\0 & 0 & o & p & q\\0 & 0 & 0 & r & s\end{bmatrix}$
+$$
+\begin{bmatrix}
+a & b & c & d & e \\
+f & g & h & i & j \\
+0 & k & l & m & n \\
+0 & 0 & o & p & q \\
+0 & 0 & 0 & r & s
+\end{bmatrix}
+$$
 
 Upper Hessenberg Matrix
 
 <br />
 
-$\begin{bmatrix}a & b & 0 & 0 & 0\\c & d & e & 0 & 0\\f & g & h & i & 0\\j & k & l & m & n\\o & p & q & r & s\end{bmatrix}$
+$$
+\begin{bmatrix}
+a & b & 0 & 0 & 0 \\
+c & d & e & 0 & 0 \\
+f & g & h & i & 0 \\
+j & k & l & m & n \\
+o & p & q & r & s
+\end{bmatrix}
+$$
 
 Lower Hessenberg Matrix
 

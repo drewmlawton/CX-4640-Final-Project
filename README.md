@@ -46,7 +46,7 @@ There are two types of **triangular matrices**: **upper triangular** and **lower
 
 <br />
 
-$\begin{bmatrix}a & b & c\\0 & d & e\\0 & 0 & f \end{bmatrix}$
+$$\begin{bmatrix}a & b & c\\0 & d & e\\0 & 0 & f \end{bmatrix}$$
 
 Upper Triangular Matrix
 

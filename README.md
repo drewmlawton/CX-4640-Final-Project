@@ -1,3 +1,9 @@
+---
+Name: Andrew Lawton
+Topic: 7
+Title: Solving Sparse Linear Systems
+----
+
 # Solving Sparse Linear Systems
 
 There are two types of matrices—and corresponding types of linear systems—based on the frequency of zeroes in a matrix: **sparse** and **dense**.  
